@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
           </p>
           <a
             className="text-blue-500"
-            href="https://github.com/2u841r/"
+            href="https://github.com/2u841r/chintaporadh"
             target="_blank"
             rel="noreferrer"
           >
