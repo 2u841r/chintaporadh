@@ -18,7 +18,7 @@
 
     ```shell
     # create a new Gatsby site using the hello-world starter
-    git clone https://github.com/2u841r/alkawsar-gatsby.git
+    git clone https://github.com/2u841r/chintaporadh.git
     ```
 
 1.  **Start developing.**
@@ -26,7 +26,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd alkawsar-gatsby
+    cd chintaporadh
     gatsby develop
     ```
 
