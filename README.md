@@ -2,11 +2,11 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="40" />
-    <img alt="Gatsby" src="https://www.alkawsar.com/static/lynx/images/alkawsar_logo_white.svg" width="100" />
+    <img alt="Gatsby" src="https://cms.chintaporadh.com/wp-content/uploads/2021/03/logo-red.png" width="100" />
   </a>
 </p>
 <h1 align="center">
- Monthly Al-Kawsar with Gatsby
+ Chintaporadh Book with Gatsbyjs
 </h1>
 
 
