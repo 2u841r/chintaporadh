@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body {
+      @apply h-full m-0 font-['SolaimanLipi','Montserrat'] text-black;
+    }
+    body {
+      @apply bg-gradient-radial from-purple-600 to-purple-900 bg-no-repeat bg-fixed;
+    }
+  }
+  
+  @layer utilities {
+    .bg-gradient-radial {
+      background-image: radial-gradient(at top left, #cbd5e1 0%, #94a3b8 100%);
+    }
+  }
