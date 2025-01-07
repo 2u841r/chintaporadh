@@ -10,7 +10,7 @@ import config from '../utils/config';
 const ArticleDetails = ({ data }) => {
   const { showPopup, copyLinkToClipboard } = useCopyLinkPopup();
   const { html } = data.markdownRemark;
-  const {  title } = data.markdownRemark.frontmatter;
+  const { title } = data.markdownRemark.frontmatter;
   const post = data.markdownRemark;
   // console.log(post)
   return (
@@ -20,7 +20,7 @@ const ArticleDetails = ({ data }) => {
       <div className="mt-5">
         {/* Category and Issue */}
         <div className="flex justify-between items-center mb-3 md:mb-5">
-         
+
         </div>
 
         {/* Title and Popup */}
@@ -39,7 +39,7 @@ const ArticleDetails = ({ data }) => {
             </div>
           )}
 
-         
+
         </div>
 
         {/* Article Content */}
@@ -50,7 +50,17 @@ const ArticleDetails = ({ data }) => {
 
 
         <div className='flex'>
-        <Link to='#navbar' className='my-5'> ↑ উপরে যান </Link>
+          <Link
+            to="#"
+            className="my-5"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
+            ↑ উপরে যান
+          </Link>
+
         </div>
       </div>
     </Layout>
